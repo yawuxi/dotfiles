@@ -1,0 +1,55 @@
+[colors.primary]
+background = "#161616"
+foreground = '#ffffff'
+
+[colors.normal]
+black   = '#29414f'
+red     = '#ec5f67'
+green   = '#99c794'
+yellow  = '#fac863'
+blue    = '#3e6c9b'
+magenta = '#c594c5'
+cyan    = '#5fb3b3'
+white   = '#65737e'
+
+[colors.bright]
+black   = '#405860'
+red     = '#ec5f67'
+green   = '#99c794'
+yellow  = '#fac863'
+blue    = '#6699cc'
+magenta = '#c594c5'
+cyan    = '#5fb3b3'
+white   = '#adb5c0'
+
+[font]
+size = 12
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+opacity = 1
+padding.x = 10
+padding.y = 10
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
