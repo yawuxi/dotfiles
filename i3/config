@@ -12,7 +12,7 @@ $exec_always setxkbmap -model pc104 -layout "us,ru,ua" -variant ",," -option grp
 $exec_always killall polybar;polybar -r
 $exec_always picom --config ~/.config/picom/config
 $exec_always copyq
-$exec_always xinput set-prop "10" "libinput Accel Profile Enabled" 0 1 0
+$exec_always xinput set-prop "12" "libinput Accel Profile Enabled" 0 1 0
 $exec_always dunst
 
 #Xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
