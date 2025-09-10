@@ -27,7 +27,6 @@ cycle_next() {
       nxt="${arr[$(( (i+1) % ${#arr[@]} ))]}"
       set_default "$nxt"
 
-      # Перемещаем активные потоки на новое устройство
       if [ "$kind" = "sink" ]; then
         for si in $(pactl list short sink-inputs | awk '{print $1}'); do
           pactl move-sink-input "$si" "$nxt"

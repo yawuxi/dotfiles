@@ -120,7 +120,7 @@ bar {
 # Autostart 
 $exec xrandr --output DP-0 --mode 1920x1080 --rate 144
 $exec feh --bg-fill ~/work/wallpaper.jpg
-$exec setxkbmap -model pc104 -layout "us,ru,ua" -variant ",," -option grp:win_space_toggle
+$exec_always setxkbmap -model pc104 -layout "us,ru,ua" -variant ",," -option grp:win_space_toggle
 $exec copyq
 $exec xinput set-prop "10" "libinput Accel Profile Enabled" 0 1 0
 $exec dunst
