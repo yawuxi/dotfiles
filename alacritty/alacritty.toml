@@ -26,19 +26,19 @@ white   = '#adb5c0'
 size = 12
 
 [font.bold]
-family = "JetBrainsMono Nerd Font"
+family = "JetBrains Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrainsMono Nerd Font"
+family = "JetBrains Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrainsMono Nerd Font"
+family = "JetBrains Mono"
 style = "Italic"
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "JetBrains Mono"
 style = "Regular"
 
 [scrolling]
