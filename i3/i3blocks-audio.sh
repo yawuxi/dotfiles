@@ -54,10 +54,10 @@ vol="$(get_vol || echo '0%')"
 desc="$(get_desc)"; [ -n "${desc:-}" ] || desc="$(get_default)"
 
 if [ "$kind" = "sink" ]; then
-  icon_muted=""
-  icon_up=""
+  icon_muted=" "
+  icon_up=" "
 else
-  icon_muted=""
+  icon_muted=" "
   icon_up=""
 fi
 

@@ -68,6 +68,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+t floating toggle
 bindsym $mod+a focus parent
 bindsym $mod+c focus child
+bindsym $mod+p layout default
 
 bindsym $mod+$left focus left
 bindsym $mod+$down focus down
