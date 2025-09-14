@@ -56,19 +56,18 @@ bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
 
-# Window management
-bindsym $mod+Shift+q kill
-bindsym $mod+r mode "resize"
+# Layout management
+bindsym $mod+e layout toggle default splitv splith
+bindsym $mod+f fullscreen toggle
+bindsym $mod+t floating toggle
 bindsym $mod+g split h
 bindsym $mod+v split v
-bindsym $mod+f fullscreen toggle
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
-bindsym $mod+t floating toggle
+
+# Container management
+bindsym $mod+Shift+q kill
+bindsym $mod+r mode "resize"
 bindsym $mod+a focus parent
 bindsym $mod+c focus child
-bindsym $mod+p layout default
 
 bindsym $mod+$left focus left
 bindsym $mod+$down focus down
@@ -119,10 +118,11 @@ bar {
 }
 
 # Autostart 
-$exec xrandr --output DP-0 --mode 1920x1080 --rate 144
-$exec feh --bg-fill ~/work/wallpaper.jpg
+$exec_always xinput set-prop "10" "libinput Accel Profile Enabled" 0 1 0
+$exec_always feh --bg-fill ~/work/wallpapers/forest_nature_trees_1325912_3840x2160.jpg
 $exec_always setxkbmap -model pc104 -layout "us,ru,ua" -variant ",," -option grp:win_space_toggle
+$exec_always pkill picom;picom --config ~/.config/picom/picom.conf
+$exec xrandr --output DP-0 --mode 1920x1080 --rate 144
 $exec copyq
-$exec xinput set-prop "10" "libinput Accel Profile Enabled" 0 1 0
 $exec dunst
 $exec protonmail-bridge
