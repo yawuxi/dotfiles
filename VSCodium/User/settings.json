@@ -1,0 +1,96 @@
+{
+  /* EDITOR */
+  "editor.fontFamily": "JetBrains Mono, monospace",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "block",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  // "editor.folding": false,
+  "editor.glyphMargin": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.linkedEditing": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.pasteAs.preferences": [
+    "text.updateImports.jsts"
+  ],
+  "window.zoomLevel": 1,
+  /* WORKBENCH */
+  "workbench.list.smoothScrolling": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.tree.indent": 21,
+  "workbench.colorTheme": "Darcula", //Is not working when "window.autoDetectColorScheme" enabled
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.preferredDarkColorTheme": "Darcula",
+  "workbench.activityBar.location": "top",
+  "workbench.navigationControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+  "workbench.settings.editor": "json",
+  /* WINDOW */
+  "window.openFoldersInNewWindow": "on",
+  "window.titleBarStyle": "custom",
+  "window.customTitleBarVisibility": "auto",
+  "window.autoDetectColorScheme": true,
+  "window.restoreWindows": "none",
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "window.title": " ",
+  "editor.minimap.sectionHeaderFontSize": 9,
+  /* TERMINAL */
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.profiles.linux": {
+    "JavaScript Debug Terminal": null
+  },
+  "terminal.integrated.automationProfile.linux": {
+    "path": "/usr/bin/bash",
+    "args": [
+      "-i"
+    ],
+  },
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.fontSize": 16,
+  /* FORMATTING */
+  // "eslint.useFlatConfig": true,
+  "eslint.format.enable": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  /* LANGUAGE SETTINGS */
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.preferences.jsxAttributeCompletionStyle": "braces",
+  "typescript.autoClosingTags": true,
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  /* FILES */
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  /* OTHER */
+  "telemetry.telemetryLevel": "off",
+  "explorer.compactFolders": false,
+  "git.confirmSync": false,
+  "task.problemMatchers.neverPrompt": {
+    "npm": true
+  },
+  "breadcrumbs.enabled": false,
+  "remote.SSH.configFile": "/home/yawuxi/.ssh/config",
+  "files.exclude": {
+    "**/.git": false
+  },
+  "playwright.reuseBrowser": false,
+}
