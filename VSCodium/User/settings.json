@@ -17,7 +17,7 @@
   "editor.pasteAs.preferences": [
     "text.updateImports.jsts"
   ],
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0.5,
   /* WORKBENCH */
   "workbench.list.smoothScrolling": true,
   "workbench.layoutControl.enabled": false,
@@ -36,7 +36,7 @@
   "window.customTitleBarVisibility": "auto",
   "window.autoDetectColorScheme": true,
   "window.restoreWindows": "none",
-  "window.menuBarVisibility": "compact",
+  "window.menuBarVisibility": "classic",
   "window.commandCenter": false,
   "window.title": " ",
   "editor.minimap.sectionHeaderFontSize": 9,
