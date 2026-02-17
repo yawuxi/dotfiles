@@ -1,0 +1,36 @@
+[general]
+import = [
+  "~/.config/alacritty/themes/github-dark.toml"
+]
+
+[font]
+size = 12
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+opacity = 1
+padding.x = 10
+padding.y = 10
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
