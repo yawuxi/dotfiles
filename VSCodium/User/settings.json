@@ -17,11 +17,10 @@
   "editor.pasteAs.preferences": [
     "text.updateImports.jsts"
   ],
-  "window.zoomLevel": 0.5,
   /* WORKBENCH */
   "workbench.list.smoothScrolling": true,
   "workbench.layoutControl.enabled": false,
-  "workbench.tree.indent": 21,
+  "workbench.tree.indent": 20,
   "workbench.colorTheme": "Darcula", //Is not working when "window.autoDetectColorScheme" enabled
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.preferredDarkColorTheme": "Darcula",
@@ -31,6 +30,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.settings.editor": "json",
   /* WINDOW */
+  "window.zoomLevel": 2,
   "window.openFoldersInNewWindow": "on",
   "window.titleBarStyle": "custom",
   "window.customTitleBarVisibility": "auto",
@@ -65,24 +65,21 @@
   },
   /* LANGUAGE SETTINGS */
   "html.autoClosingTags": true,
-  "javascript.autoClosingTags": true,
-  "javascript.preferences.quoteStyle": "single",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.referencesCodeLens.enabled": true,
-  "javascript.preferences.jsxAttributeCompletionStyle": "braces",
-  "typescript.autoClosingTags": true,
-  "typescript.preferences.quoteStyle": "single",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.referencesCodeLens.enabled": true,
-  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
-  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "js/ts.autoClosingTags.enabled": true,
+  "js/ts.preferences.quoteStyle": "single",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.referencesCodeLens.enabled": true,
+  "js/ts.preferences.jsxAttributeCompletionStyle": "braces",
+  "js/ts.preferences.importModuleSpecifier": "non-relative",
   /* FILES */
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
   "files.eol": "\n",
+  /* EXPLORER */
+  "explorer.compactFolders": false,
+  "explorer.autoReveal": false,
   /* OTHER */
   "telemetry.telemetryLevel": "off",
-  "explorer.compactFolders": false,
   "git.confirmSync": false,
   "task.problemMatchers.neverPrompt": {
     "npm": true
