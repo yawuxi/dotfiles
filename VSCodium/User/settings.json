@@ -9,7 +9,7 @@
   "editor.smoothScrolling": false,
   "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": "off",
-  "editor.folding": false,
+  "editor.folding": true,
   "editor.glyphMargin": false,
   "editor.scrollBeyondLastLine": false,
   "editor.linkedEditing": true,
@@ -30,7 +30,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.settings.editor": "json",
   /* WINDOW */
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 0.8,
   "window.openFoldersInNewWindow": "on",
   "window.titleBarStyle": "custom",
   "window.customTitleBarVisibility": "auto",
